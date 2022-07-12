@@ -41,7 +41,7 @@ const Main = () => {
 
   const handleSurprise = () => {
     const randomNumber = Math.floor(Math.random() * data.length);
-    setIndex(randomNumber);
+    randomNumber !== index ? setIndex(randomNumber): handleSurprise();
   };
 
   // return
