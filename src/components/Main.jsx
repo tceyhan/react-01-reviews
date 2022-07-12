@@ -10,7 +10,7 @@ const Main = () => {
   const [index, setIndex] = useState(0);
   const { name, description, img, job } = data[index];
 
-  // button frunctions
+  // button functions
 
   // listenin sonu geldiğinde veya index 0 olduğunda sonraki kontroller için fonksion
   const checkIndex = (newIndex) => {
